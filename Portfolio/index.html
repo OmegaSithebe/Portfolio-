@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>NO Sithebe - Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <script src="https://kit.fontawesome.com/d4372b4cb9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I am <span>Nkosingiphile Omega </span><br>Sithebe from South Africa, <br><br>this is<span> My Portfolio</span></h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------About-------------------- -->
+    <div id="about">
+        <div class="containter">
+            <div class="row">
+                <div class="about-col-1"><img src="Images/about_img.jpg" ></div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me:</h1>
+                    <p>I am a student at Twshane University of Technology (TUT) were I major in ICT (Information Communication Technology) specialising as a Software Developer. <br> Through my years in varsity, I have learnt quite a lot of things and I have met many people as well.
+                        I have learnt skills like programming/coding websites and systems, learnt how to be independent and I've also learnt how to handle people by working in teams. <br>
+                        Which was not easy, but the key thing is communication and being truthful to oneself.
+                        I also believe that I am a student of life as I enjoy trying new things, traveling and dealing with changes as I grow. <br>
+                        Though change and trying new things it's not easy as one may get anxious with fear, but I believe by breaking through those emotions we get better each day. <br>
+                        I do enjoy coding and in my spare time I enjoy going to the gym(working-out), reading books, modelling and also spending time with my family.
+                        </p>
+
+                        <div class="tab-title">
+                            <p class="tab-links active-link" onclick="opentab('values')">Skills</p>
+                            <p class="tab-links" onclick="opentab('hobbies')">Experience</p>
+                            <p class="tab-links" onclick="opentab('passions')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="values">
+                            <ul>
+                                <li>Honesty</li>
+                                <li>Altruism</li>
+                                <li>Equity</li>
+                                <li>Respect</li>
+                                <li>Effort</li>
+                                <li>Learning</li>
+                                <li>Freedom of Expression</li>
+                                <li>Determination</li>
+                                <li>Creativity</li>
+                                <li>Originality</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="hobbies">
+                            <ul>
+                                <li>Programming/Coding</li>
+                                <li>Working-out</li>
+                                <li>Reading</li>
+                                <li>Swimming</li>
+                                <li>Spending time with friends & family</li>
+                                <li>Plants and spending time in nature</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="passions">
+                            <ul>
+                                <li>Self-improvement</li>
+                                <li>Healthy lifestyle</li>
+                                <li>Body positivity</li>
+                                <li>Take care for animals</li>
+                                <li>Adventure</li>
+                                <li>Building real confidence</li>
+                                <li>Exercise for happiness</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- ----------------------Services-------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services:</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <ul>
+                        <li>Designed and developed responsive websites for clients.</li>
+                        <li>Collaborated with clients to understand their needs and translate them into effective web solutions.</li>
+                        <li>Worked closely with the development team to ensure integration of design elements.</li>
+                        <li>Conducted usability testing and made recommendations for improvements to enhance user experience.</li>
+                    </ul>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <ul>
+                        <li>Proficient in UI/UX design principles and methodologies</li>
+                        <li>Strong understanding of interaction design and user psychology</li>
+                        <li>Ability to conduct user research and usability testing</li>
+                        <li>Knowledge of front-end development technologies (HTML, CSS, JavaScript)</li>
+                        <li>Excellent communication and collaboration skills</li>
+                    </ul>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>System development</h2>
+                    <ul>
+                        <li>Proficient in software development methodologies (Agile, Scrum, etc.)</li>
+                        <li>Strong programming skills in [relevant languages, e.g., C#, Angular, C++]</li>
+                        <li>Experience with database management systems (SQL, NoSQL)</li>
+                        <li>Knowledge of version control systems (Git)</li>
+                        <li>Familiarity with software testing and debugging techniques</li>
+                        <li>Ability to analyze and document system requirements</li>
+                    </ul>
+                        <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- ----------------------Portfolio-------------------- -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work:</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/work1.jpg">
+                <div class="layer">
+                    <h2>Maisha Financial Advisor</h2>
+                    <p>System for Maisha Financial Advisor clients, so they could be able to do their tasks online.
+                        <br>They could view and set up for plans and also get advise from one of the financial advisor.
+                    </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work2.jpg">
+                <div class="layer">
+                    <h2>Portfolio</h2>
+                    <p>Personal portfolio where I provide my personal life for the user to know more about me personally.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work3.jpg">
+                <div class="layer">
+                    <h2>Bus System</h2>
+                    <p>Developed a bus system for my varsity end project in order for studend and orginasors to have a more structured system amongst each other.
+                        <br>To avoid student rushing and kicking one another to get inside the bus. A student can know if the bus is full before booking. 
+                        <br>By booking online a student can save a sit and know what time to catch the bus.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- ----------------------Contact-------------------- -->
+
+<div id="contact">
+    <div class="containter">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-titleLeft">Contact Me:</h1>
+                <p><i class="fa-solid fa-envelope"></i>rogersithebe@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>0606749861</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/OMGdaKINGSHIP"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Images/Curriculam Vitae of Nkosingiphile Omega Sithebe.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @Omega. Made with<i class="fa-solid fa-heart"></i> by NO SITHEBE</p>
+    </div>
+</div>
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzTlzSDql3l5pCRP3yC5V39mFHOLGhj4q8sN9MT8V3yyyu3vtUduvxECtsBqCXv2vw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+</body>
+</html>
